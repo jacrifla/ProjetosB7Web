@@ -3,8 +3,8 @@ let pizzaJson = [
         id:1, 
         name:'Mussarela', 
         img:'images/pizza.png', 
-        price: 35.50, 
-        sizes: ['200g', '550g', '850g'], 
+        price: 33.50, 
+        sizes: ['100g', '500g', '800g'], 
         description: 'Mussarela, Molho de Tomate e Tomate'
     },
     {
@@ -20,7 +20,7 @@ let pizzaJson = [
         name:'Portuguesa', 
         img:'images/pizza3.png', 
         price: 42.50, 
-        sizes: ['200g', '550g', '850g'], 
+        sizes: ['260g', '680g', '900g'], 
         description: 'Mussarela, Preseunto Picado, Ervilha, Ovo, Cebola e Molho de Tomate'
     },
     {
@@ -44,7 +44,7 @@ let pizzaJson = [
         name:'Marguerita', 
         img:'images/pizza6.png', 
         price: 41.10, 
-        sizes: ['200g', '550g', '850g'], 
+        sizes: ['150g', '450g', '750g'], 
         description: 'Mussarela, Molho de Tomate, Manjericão fresco e mais Molho de Tomate'
     },
     {
@@ -52,7 +52,7 @@ let pizzaJson = [
         name:'Chocolate', 
         img:'images/pizza7.png', 
         price: 50.25, 
-        sizes: ['200g', '550g', '850g'], 
+        sizes: ['150g', '475g', '600g'], 
         description: 'Chocolate e M&M'
     }
 ]
