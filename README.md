@@ -4,3 +4,4 @@
 * [Slidershow](https://jacrifla.github.io/ProjetosB7Web/slidershow/index.html)
 * [Validador de Formulário](https://jacrifla.github.io/ProjetosB7Web/tela-cadastro/index.html)
 * [Urna Eletrônica](https://jacrifla.github.io/ProjetosB7Web/urna/index.html)
+* [Bateria](https://jacrifla.github.io/ProjetosB7Web/bateria/index.html)
