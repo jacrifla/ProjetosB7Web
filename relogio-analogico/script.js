@@ -1,14 +1,18 @@
+// puxando os elementos do html
 let digitalElement = document.querySelector('.digital');
-let psElement = document.querySelector('.p_s');
-let pmElement = document.querySelector('.p_m');
-let phElement = document.querySelector('.p_h');
+let sElement = document.querySelector('.p_s');
+let mElement = document.querySelector('.p_m');
+let hElement = document.querySelector('.p_h');
 
+// funcao pra o funcionamento dos relogios
 function updateClock() {
+    // pegando a hora, minutos e segundos
     let now = new Date();
     let hour = now.getHours();
     let minute = now.getMinutes();
     let second = now.getSeconds();
 
+    // relogio digital
     digitalElement.innerHTML = `${fixZero(hour)}:${fixZero(minute)}:${fixZero(second)}`
 
     // calculo dos graus
@@ -17,11 +21,12 @@ function updateClock() {
     let hDeg = ((360 / 12) * hour) - 90;
 
     // pra fazer o ponteiro mexer
-    psElement.style.transform = `rotate(${sDeg}deg)`;
-    pmElement.style.transform = `rotate(${mDeg}deg)`;
-    phElement.style.transform = `rotate(${hDeg}deg)`;
+    sElement.style.transform = `rotate(${sDeg}deg)`;
+    mElement.style.transform = `rotate(${mDeg}deg)`;
+    hElement.style.transform = `rotate(${hDeg}deg)`;
 };
 
+// Função para ter um zero se o numero for menor que 10
 function fixZero(time) {
     return time < 10 ? `0${time}` : time;
 }
