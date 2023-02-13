@@ -6,3 +6,4 @@
 * [Urna Eletrônica](https://jacrifla.github.io/ProjetosB7Web/urna/index.html)
 * [Bateria](https://jacrifla.github.io/ProjetosB7Web/bateria/index.html)
 * [Relógio Analógico](https://jacrifla.github.io/ProjetosB7Web/relogio-analogico/index.html)
+* [Clima](https://jacrifla.github.io/ProjetosB7Web/clima/index.html)
