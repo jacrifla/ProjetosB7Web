@@ -1,10 +1,12 @@
 import { View } from "react-native";
 import { styles } from "./styles";
 
-
-export default function Ball() {
+type Props = {
+    posY: number
+}
+export default function Ball({posY}: Props) {
     return (
-        <View style={styles.container}>
+        <View style={[styles.container, {bottom: posY}]}>
             
         </View>
     );
